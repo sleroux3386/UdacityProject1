@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapterOnCl
         Context context = this;
         Class destinationClass = MovieDetailsActivity.class;
         Intent detailsActivityIntent = new Intent(context, destinationClass);
-        detailsActivityIntent.putExtra(MovieDetailsActivity.MOVIE_ID_INTENT_PARAMETER, movieID);
+        detailsActivityIntent.putExtra(context.getString(R.string.MOVIE_ID_INTENT_PARAMETER), movieID);
         startActivity(detailsActivityIntent);
     }
 
