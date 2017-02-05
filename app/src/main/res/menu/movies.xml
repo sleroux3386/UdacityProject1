@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/mi_sort_popularity"
+        android:orderInCategory="1"
+        android:title="@string/sort_popularity"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+    <item
+        android:id="@+id/mi_sort_rated"
+        android:orderInCategory="1"
+        android:title="@string/sort_rated"
+        app:showAsAction="ifRoom" />
+</menu>

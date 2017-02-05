@@ -1,0 +1,43 @@
+<resources>
+    <!-- UI Strings -->
+    <string name="app_name">AndroidMovies</string>
+    <string name="error_message">An error occured...\nAre you connected to the internet?\nAre you ising a valid API Key?</string>
+    <string name="sort_popularity">Sort by popularity</string>
+    <string name="sort_rated">Sort by rating</string>
+    <string name="releaseDate">Relase date</string>
+    <string name="average">Average</string>
+    <string name="overview">Overview</string>
+    <string name="click_to_full_screen">(click to full screen)</string>
+
+    <!-- Internal usage Strings -->
+    <string name="TMDB_MOVIE_POPULAR_ENDPOINT">https://api.themoviedb.org/3/movie/popular</string>
+    <string name="TMDB_MOVIE_TOPRATED_ENDPOINT">https://api.themoviedb.org/3/movie/top_rated</string>
+    <string name="TMDB_MOVIE_ENDPOINT">https://api.themoviedb.org/3/movie/</string>
+    <string name="TMDB_THUMBNAIL_ENDPOINT">http://image.tmdb.org/t/p/</string>
+    <string name="TMDB_RESULT">results</string>
+    <string name="TMDB_POSTER_PATH">poster_path</string>
+    <string name="TMDB_ID">id</string>
+    <string name="TMDB_TITLE">title</string>
+    <string name="TMDB_OVERVIEW">overview</string>
+    <string name="TMDB_ADULT">adult</string>
+    <string name="TMDB_RELEASE_DATE">release_date</string>
+    <string name="TMDB_GENRE_IDS">genre_ids</string>
+    <string name="TMDB_ORIGINAL_TITLE">original_title</string>
+    <string name="TMDB_ORIGINAL_LANGUAGE">original_language</string>
+    <string name="TMDB_BACKDROP_PATH">backdrop_path</string>
+    <string name="TMDB_POPULARITY">popularity</string>
+    <string name="TMDB_VOTE_COUNT">vote_count</string>
+    <string name="TMDB_VIDEO">video</string>
+    <string name="TMDB_VOTE_AVERAGE">vote_average</string>
+    <string name="API_KEY_PARAM">api_key</string>
+    <string name="PAGE_PARAM">page</string>
+    <string name="IMAGE_SIZE">w185</string>
+    <string name="ORIGINAL_SIZE">original</string>
+    <string name="POSTER_URL_INTENT_PARAMETER">posterURL</string>
+    <string name="MOVIE_ID_INTENT_PARAMETER">movieID</string>
+
+
+    
+    <!-- The Movie Database API Key -->
+    <string name="TMBKey">XXXXX</string>
+</resources>
